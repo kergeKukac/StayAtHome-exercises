@@ -1,0 +1,14 @@
+a {
+  display: block;
+  margin: 10px;
+  color: green;
+}
+
+a:hover {
+  color: lightblue;
+  text-decoration: none;
+}
+
+main {
+  font-family: 'Bangers', cursive;
+}

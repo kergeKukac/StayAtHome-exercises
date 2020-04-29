@@ -1,0 +1,93 @@
+body {
+ font-family: 'Bangers', cursive;
+ background: #ccddff;
+}
+
+main {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.newsletter-form {
+  color: #666666;
+  border: 1px solid #666666;
+  padding: 10px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.newsletter-form h2 {
+  margin-top: 0;
+}
+
+a {
+  color: #3CB878;
+}
+
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 0 5px;
+  box-shadow: 5px 5px 5px #666666;
+}
+
+input[type="submit"] {
+  width: 100%;
+  box-sizing: border-box;
+  background: #3cd878;
+  border: 0;
+  color: white;
+  height: 30px;
+  margin: 0 0 5px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px #666666;
+}
+
+.exit-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.key-features {
+  display: flex;
+  justify-content: space-between;
+/*   flex-direction: row; */
+}
+
+/* .feature img {
+  width: 70px; */
+
+.feature {
+  background: #3cd878;
+  padding: 25px;
+  margin: 10px 0;
+  box-shadow: 5px 5px 5px #666666;
+}
+
+.feature p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-buttom: 0;
+  text-align: center;
+}
+
+.question-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #3cd878;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 10;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px #666666;
+}

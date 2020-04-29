@@ -1,0 +1,23 @@
+main {
+  border: 5px solid blue;
+  margin: 10px;
+  width: 200px;
+}
+
+p {
+  text-align: center;
+  color: white;
+  margin: 0px;
+  padding: 30px;
+  font-family: 'Bangers', cursive;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.north {
+  background: #e67676;
+}
+
+.south {
+  background: #a9e6e6;
+}

@@ -1,0 +1,9 @@
+main {
+  font-family: 'Bangers', cursive;  
+  font-size: 24px;
+}
+
+fieldset {
+  width: 400px;
+  border: 2px solid;
+}

@@ -1,0 +1,106 @@
+body {
+  font-family: 'Londrina Solid', cursive;
+  line-height: 1.5;
+  color: #001F3F;
+  background: #ddd;
+}
+
+.flexbody {
+  display: flex;
+  flex-wrap: wrap; 
+  width: 1100px;
+  margin: auto;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+header, .intro, .main, .quoteblock, img {
+  width: 500px;
+  border-top: 2px solid #404040;
+}
+
+.quoteblock {
+ font-family: 'Shadows Into Light', cursive;
+}
+
+.quoteblock {
+  color: #ddd;
+  background: #404040;
+  position: relative;
+}
+
+
+img {
+  display: block;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  line-height: 0.3;
+  margin-top: 10px;
+}
+
+.subtitle {
+ font-family: 'Girassol', cursive;
+ font-style: italic;
+ padding-top: 0px;
+ margin: 0px;
+}
+
+.main, .intro {
+  margin: auto;
+  font-size: 20px;
+}
+
+.pref::before {
+  content: '”';
+  font-size: 100px;
+  position: absolute;
+  top: -30px;
+  left: 0px;
+}
+
+.pref {
+  display:block;
+  font-size: 50px;
+  padding: 40px;
+}
+
+.main p {
+ line-height: 1.2;
+}
+
+h3 {
+  margin: 0px;
+}
+
+li {
+  font-size: 18px;
+}
+
+.navi {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 5px;
+  list-style: none;
+  justify-content: space-evenly;
+  background: #404040;
+}
+
+.navi li {
+  font-size: 40px;
+  color: #ddd;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #ddd;
+}
