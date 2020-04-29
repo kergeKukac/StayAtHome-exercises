@@ -1,0 +1,40 @@
+body {
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+div {
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+li {
+    width: 50px;
+    height: 50px;
+
+}
+
+.whitebox {
+    border: 1px solid blue;
+    
+}
+
+.whitebox li {
+    background: blue;
+}
+
+.orangebox {
+    border: 1px solid blue;
+    background: orangered;
+}
+
+.orangebox li {
+    background: purple;
+}
