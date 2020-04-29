@@ -1,9 +1,42 @@
+body {
+    background: #7FDBFf;
+    color: #3D9970;
+    width: 1200px;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+}
+
 h1 {
     text-align: center;
-    background: blueviolet;
-    color: white;
+    background: #001F3F;
+    color: #3D9970;
+    box-shadow: 5px 5px 5px black;
+    
+}
+
+legend {
+    background: #001F3F;
+    border: 2px solid #3D9970;
+    box-shadow: 5px 5px 5px black;   
+}
+
+fieldset {
+    width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #001F3F;
+    border: 2px solid #3D9970;
+    box-shadow: 5px 5px 5px black;
 }
 
 ul {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #3D9970;
 }
