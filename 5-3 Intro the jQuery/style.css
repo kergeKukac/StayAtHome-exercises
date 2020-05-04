@@ -1,0 +1,32 @@
+p {
+    background: blue;
+    border: 2px solid blueviolet;
+    text-align: center;
+    margin: 5px;
+}
+  
+div {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+    font-family: 'Bangers', cursive;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+.north {
+   background: #e67676;
+  }
+  
+.east {
+    background: #f2f062;
+  }
+  
+.south {
+    background: #a9e6e6;
+  }
+  
+.west {
+    background: #7692e4;
+  }
