@@ -16,3 +16,13 @@ names.forEach((name) => {
         );
     }
 });
+
+let additionalBlock = {
+    title: "Added with JavaScript!",
+    text: "This block was added using JavaScript's jQuery library. How awesome!"
+};
+
+$('body').append (
+    '<h1>' +additionalBlock.title+ '</h1>',
+    '<p>' +additionalBlock.text+ '</p>'
+);
